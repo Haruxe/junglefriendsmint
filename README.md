@@ -1,3 +1,7 @@
+This project repository is a mint website of Jungle Friends, a free NFT built on the rinkeby testnet by Josh Francisco.
+
+Below is the original Next.js documentation.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
