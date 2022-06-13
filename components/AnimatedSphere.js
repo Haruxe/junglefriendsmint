@@ -15,9 +15,10 @@ function AnimatedSphere() {
 })
 
 
+
   return (
     <Sphere visible args={[1, 100, 200]} scale={sphereScale}>
-      <MeshDistortMaterial color='#0000F0' attach='material' distort={.4} roughness='1'/>
+      <MeshDistortMaterial color='#3020F2' attach='material' distort={.4} roughness='1'/>
     </Sphere>
   )
 }

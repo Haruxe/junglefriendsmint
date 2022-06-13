@@ -20,17 +20,9 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <a className='px-2 cursor-pointer hover:underline'>
+              <a className='px-2 cursor-pointer hover:underline' href='#tribe'>
                 Our Tribe
               </a>
-            </li>
-            <li>
-              <a className='px-2 cursor-pointer hover:underline'>
-                What is this?
-              </a>
-            </li>
-            <li>
-              
             </li>
           </ul>
         </div>
