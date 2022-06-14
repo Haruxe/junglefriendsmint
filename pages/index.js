@@ -24,8 +24,10 @@ export default function Home() {
         <div className="my-auto mx-auto z-10">
           <motion.div className="mx-auto my-auto" initial={{opacity: 0, x: -60}} 
           animate={{opacity: 1, x: 0}} transition={{duration: .8}}>
-            <h1 className=" xl:text-[175px] text-[12vw] font-bold mx-auto text-center my-auto select-none w-full dark:text-white">
-              JUNGLE FRNDZ
+            <h1 className=" xl:text-[250px] text-[23vw] font-bold mx-auto text-center my-auto select-none w-full dark:text-white">
+              JUNGLE
+              <div className="h-[4px] bg-black dark:bg-white my-5 rounded-lg mx-auto"/>
+              FRNDZ
             </h1>
           </motion.div>
         </div>
