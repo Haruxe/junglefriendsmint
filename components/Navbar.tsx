@@ -72,10 +72,10 @@ if (window.innerWidth > 1000){
             </li>
             <li>
               {isDark ? <button className='px-2 cursor-pointer' onClick={() => {document.documentElement.classList.remove('dark'); setDark(false)}}>
-              <LightMode className='w-12 p-3 outline outline-black bg-white outline-2 rounded-full'/> </button>
+              <LightMode className='w-12 p-3  bg-white rounded-full'/> </button>
               :
               <button className='px-2 cursor-pointer' onClick={() => {document.documentElement.classList.add('dark'); setDark(true)}}>
-                <DarkMode className='w-12 p-3 outline outline-black bg-white outline-2 rounded-full'/>
+                <DarkMode className='w-12 p-3 bg-white rounded-full'/>
               </button>
 
               }
