@@ -28,7 +28,7 @@ export default function Home() {
               JUNGLE FRNDZ
             </h1>
             <p className="xl:text-[25px] text-[2.5vw] dark:text-white ">
-              <a href="#friendmap"><DownArrow className="xl:w-[30px] w-[2.5vw] hover:animate-bounce"/></a> Whats the deal?
+              <a href="/mint">Mint TBA</a>
             </p>
           </motion.div>
         </div>

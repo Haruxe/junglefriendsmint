@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Discord, DiscordAlt, Twitter } from 'styled-icons/boxicons-logos';
+import { DiscordAlt, Twitter } from 'styled-icons/boxicons-logos';
 import { LightMode } from 'styled-icons/material';
 import { DarkMode } from 'styled-icons/material'
 
