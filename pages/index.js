@@ -36,8 +36,8 @@ export default function Home() {
         <div id='friendmap' className="mb-[100px]"/>
         <div className=" space-y-[200px] justify-center relative">
 
-        <div className="mx-auto justify-center">
-            <div className="xl:text-8xl text-4xl p-5 font-bold bg-white dark:bg-black dark:text-white outline outline-1 dark:outline-white" href='/mint'>
+        <div className="mx-auto justify-center w-1/2">
+            <div className="xl:text-8xl  text-4xl p-5 font-bold bg-white dark:bg-black dark:text-white outline outline-1 dark:outline-white" href='/mint'>
               <a href="/mint">
               <center>
               - MINT TBA -
