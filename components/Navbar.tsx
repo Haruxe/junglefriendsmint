@@ -1,9 +1,32 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Discord, DiscordAlt, Twitter } from 'styled-icons/boxicons-logos';
 import { LightMode } from 'styled-icons/material';
 import { DarkMode } from 'styled-icons/material'
 
 function Navbar() {
+
+  const [navVisible, setNavVisible] = useState(false)
+
+  useEffect(() => {
+    function handleResize() {
+        if (window.innerWidth < 1000){
+            setNavVisible(false);
+        }
+        if (window.innerWidth > 1000){
+            setNavVisible(true);
+        }
+    }
+    window.addEventListener('resize', handleResize)
+})
+
+useEffect(() => {
+  if (window.innerWidth < 1000){
+    setNavVisible(false);
+}
+if (window.innerWidth > 1000){
+    setNavVisible(true);
+}
+}, [])
 
   const [isDark, setDark] = useState(false)
   return (
@@ -19,6 +42,7 @@ function Navbar() {
       </div>
         <div className='flex my-auto align-middle'>
           <ul className='mx-auto flex space-x-10 align-middle place-items-center'>
+            {navVisible ? <>
             <li>
               <a className='mx-auto px-2 cursor-pointer hover:underline md:text-md text-sm dark:text-white' href='/#friendmap'>
                 Friendmap
@@ -34,11 +58,13 @@ function Navbar() {
                 Mint
               </a>
             </li>
+            </>: <></>}
             <li>
               <a className='mx-auto px-2 cursor-pointer hover:underline md:text-md text-sm dark:text-white' href='https://twitter.com/junglefriendNFT' target={'_blank'}>
                 <Twitter className='w-8'/>
               </a>
-            </li>
+            </li> 
+            
             <li>
               <a className='mx-auto px-2 cursor-pointer hover:underline md:text-md text-sm dark:text-white' href='https://discord.gg/s3ej7ZG4DZ' target={'_blank'}>
                 <DiscordAlt className='w-8'/>
