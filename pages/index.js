@@ -27,15 +27,22 @@ export default function Home() {
             <h1 className=" xl:text-[175px] text-[12vw] font-bold mx-auto text-center my-auto select-none w-full dark:text-white">
               JUNGLE FRNDZ
             </h1>
-            <p className="xl:text-[25px] text-[2.5vw] dark:text-white ">
-              <a href="/mint">Mint TBA</a>
-            </p>
           </motion.div>
         </div>
         </div>
 
         <div id='friendmap' className="mb-[100px]"/>
         <div className=" space-y-[200px] justify-center relative">
+
+        <div className="mx-auto justify-center">
+            <div className="xl:text-8xl text-4xl p-5 font-bold bg-white dark:bg-black dark:text-white outline outline-1 dark:outline-white" href='/mint'>
+              <a href="/mint">
+              <center>
+              - MINT TBA -
+              </center>
+              </a>
+            </div>
+          </div>
           <div className='xl:w-1/2 bg-white outline outline-1 p-8 mx-auto z-30 dark:outline-white dark:bg-black'>
           <motion.div className="mx-auto my-auto" initial={{opacity: 0}} 
          transition={{duration: .8}} whileInView={{opacity: 1}}>
@@ -43,6 +50,7 @@ export default function Home() {
                FRNDZ //
             </h1>
           </motion.div>
+          
           <div className="h-[1px] xl:w-1/2 bg-gray-300 my-5 rounded-lg ml-3 mx-auto z-10"/>
             <h1 className="xl:text-2xl text-lg text-gray-800 leading-relaxed mx-auto z-10 dark:text-gray-400">
               Q: Huh? It's more than a PFP? A: Yup.

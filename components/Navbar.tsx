@@ -36,7 +36,7 @@ if (window.innerWidth > 1000){
       <div className='flex-grow'>
         <button className='bg-red-500 dark:bg-blue-400 rounded-md px-5 py-3 hover:bg-blue-400 dark:hover:bg-red-500'>
           <a className='text-white md:text-[20px] font-bold' href='/#top'>
-            F R N D Z
+            FRNDZ
           </a>
         </button>
       </div>
@@ -60,21 +60,21 @@ if (window.innerWidth > 1000){
             </li>
             </>: <></>}
             <li>
-              <a className='mx-auto px-2 cursor-pointer hover:underline md:text-md text-sm dark:text-white' href='https://twitter.com/junglefriendNFT' target={'_blank'}>
+              <a className='mx-auto lg:px-2 cursor-pointer hover:underline md:text-md text-sm dark:text-white' href='https://twitter.com/junglefriendNFT' target={'_blank'}>
                 <Twitter className='w-8'/>
               </a>
             </li> 
             
             <li>
-              <a className='mx-auto px-2 cursor-pointer hover:underline md:text-md text-sm dark:text-white' href='https://discord.gg/s3ej7ZG4DZ' target={'_blank'}>
+              <a className='mx-auto lg:px-2 cursor-pointer hover:underline md:text-md text-sm dark:text-white' href='https://discord.gg/s3ej7ZG4DZ' target={'_blank'}>
                 <DiscordAlt className='w-8'/>
               </a>
             </li>
             <li>
-              {isDark ? <button className='px-2 cursor-pointer' onClick={() => {document.documentElement.classList.remove('dark'); setDark(false)}}>
+              {isDark ? <button className='lg:px-2 cursor-pointer' onClick={() => {document.documentElement.classList.remove('dark'); setDark(false)}}>
               <LightMode className='w-12 p-3  bg-white rounded-full'/> </button>
               :
-              <button className='px-2 cursor-pointer' onClick={() => {document.documentElement.classList.add('dark'); setDark(true)}}>
+              <button className='lg:px-2 cursor-pointer' onClick={() => {document.documentElement.classList.add('dark'); setDark(true)}}>
                 <DarkMode className='w-12 p-3 bg-white rounded-full'/>
               </button>
 
